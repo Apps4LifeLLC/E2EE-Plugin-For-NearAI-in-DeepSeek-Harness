@@ -1,0 +1,12 @@
+# Inserts the NEAR AI E2EE provider route.
+- insert:
+    - id: nearai-e2ee
+      name: dsh-llm-nearai-tee
+      config:
+        maxOutputTokens: 2048
+        maxConcurrentRequests: 25
+        requestTimeoutMs: 300000
+        attestationCacheTimeToLiveMs: 3600000
+        responseCacheTimeToLiveMs: 3600000
+        contextWindow: 1000000
+        apiKeyEnv: NEARAI_API_KEY

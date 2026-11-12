@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "NEAR AI E2EE",
+    "description": "Adds the NEAR AI provider route with verified TEE attestation, end-to-end encryption, and provider_tee response receipts."
+  }
+}

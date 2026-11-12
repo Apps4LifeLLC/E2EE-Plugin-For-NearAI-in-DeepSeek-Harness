@@ -3,7 +3,7 @@
     - id: nearai-e2ee
       name: dsh-llm-nearai-tee
       config:
-        maxOutputTokens: 393216
+        maxOutputTokens: 131072
         maxConcurrentRequests: 25
         requestTimeoutMs: 300000
         attestationCacheTimeToLiveMs: 3600000

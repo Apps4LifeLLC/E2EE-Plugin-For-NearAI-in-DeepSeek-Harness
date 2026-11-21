@@ -5,7 +5,7 @@
       config:
         maxOutputTokens: 128000
         maxConcurrentRequests: 25
-        requestTimeoutMs: 300000
+        requestTimeoutMs: 600000
         attestationCacheTimeToLiveMs: 3600000
         responseCacheTimeToLiveMs: 3600000
         contextWindow: 1000000
